@@ -12,7 +12,7 @@ const jwt = require("jsonwebtoken");
 const authenticate = require("./middleware/authenticate.js");
 
 const PORT = 2000;
-const SECRET_KEY = "secret_key";
+const SECRET_KEY = "your_secret_key";
 const app = express();
 
 app.use(cookieParser());
